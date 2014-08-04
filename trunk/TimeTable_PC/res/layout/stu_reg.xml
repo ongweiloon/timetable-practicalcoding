@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:text="Submit" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner2"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="24dp"
+        android:entries="@array/Sem_array"
+        android:prompt="@string/prompt3" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnSubmit"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+        android:entries="@array/college_array"
+        android:prompt="@string/prompt1" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner3"
+        android:layout_below="@+id/spinner3"
+        android:layout_marginTop="24dp"
+        android:entries="@array/Div_array"
+        android:prompt="@string/prompt4" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner3"
+        android:layout_alignLeft="@+id/spinner1"
+        android:layout_marginTop="10dp"
+        android:entries="@array/Branch_array"
+        android:prompt="@string/prompt2" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinner1"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignTop="@+id/spinner1"
+        android:text="College"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinner2"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignTop="@+id/spinner2"
+        android:text="Branch"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinner3"
+        android:layout_alignTop="@+id/spinner3"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/spinner3"
+        android:text="Semester"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spinner4"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignTop="@+id/spinner4"
+        android:text="Division"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
