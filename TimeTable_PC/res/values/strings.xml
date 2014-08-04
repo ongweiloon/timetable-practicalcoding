@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">View your Time Table</string>
+    <string name="app_name">TIME TABLE</string>
+    <string name="prompt1">Choose College</string>
+
+    <string-array name="college_array">
+        <item>BVBCET</item>
+        <item>SDM</item>
+        <item>SKSVMACET</item>
+    </string-array>
+
+    <string name="prompt2">Choose Branch</string>
+
+    <string-array name="Branch_array">
+        <item>CSE</item>
+        <item>ISE</item>
+        <item>ENC</item>
+        <item>AUTO</item>
+        <item>BT</item>
+        <item>MECH</item>
+    </string-array>
+
+    <string name="prompt3">Choose Sem</string>
+
+    <string-array name="Sem_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string name="prompt4">Choose Div</string>
+
+    <string-array name="Div_array">
+        <item>A</item>
+        <item>B</item>
+    </string-array>
+    
+    <string name="promptWeek">Choose Day</string>
+
+    <string-array name="day_array">
+        <item>Select a day</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string name="title_activity_time_table">TimeTableActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
